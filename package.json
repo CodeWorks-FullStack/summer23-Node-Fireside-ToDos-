@@ -1,0 +1,13 @@
+
+  {
+    "name": "summer23-node-todosfireside",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd summer23-Node-TodosFireside.client && npm i",
+      "setup:server": "cd summer23-Node-TodosFireside && npm i",
+      "start": "node summer23-Node-TodosFireside/index.js"
+    }
+  }
+  
